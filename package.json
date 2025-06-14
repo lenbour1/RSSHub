@@ -19,7 +19,9 @@
     "main": "lib/pkg.ts",
     "files": [
         "lib"
-    ],
+    ],"engines": {
+  "node": "22.x"
+},
     "scripts": {
         "build": "tsx scripts/workflow/build-routes.ts && tsdown",
         "build:docs": "tsx scripts/workflow/build-docs.ts",
